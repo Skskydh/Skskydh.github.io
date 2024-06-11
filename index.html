@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuktavia Pastry</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body.bg-secondary {
+      background-color: #f8f9fa !important;
+    }
+    .bg-primary {
+      background-color: #007bff !important;
+    }
+    .bg-brick-red {
+      background-color: #8c3636 !important;
+    }
+    .text-primary {
+      color: #007bff !important;
+    }
+    .text-secondary {
+      color: #6c757d !important;
+    }
+    .text-light {
+      color: #f8f9fa !important;
+    }
+    .card-footer {
+      background-color: #fff;
+    }
+    .card-body p {
+      margin-bottom: 10px;
+    }
+    .store-hours {
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .store-hours h3 {
+      color: #050505;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .store-hours table {
+      width: 100%;
+      margin: auto;
+      border-collapse: collapse;
+    }
+    .store-hours table, .store-hours th, .store-hours td {
+      border: 1px solid #e0e0e0;
+    }
+    .store-hours th, .store-hours td {
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+    }
+    .store-hours th {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body class="bg-secondary">
+  <div class="container p-0 mb-4 mt-4 rounded-3 shadow bg-white">
+    <!-- Menu -->
+    <nav id="menu" class="d-md-flex p-4">
+      <div><h1>Nuktav Pastry</h1></div>
+      <div class="ms-auto my-auto">
+        <ul class="list-inline m-0">
+          <li class="list-inline-item mx-md-3"><a href="#menu" class="text-decoration-none text-dark fw-bold">Pilihan Menu</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#about" class="text-decoration-none text-dark fw-bold">Tentang Kami</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#jadwal" class="text-decoration-none text-dark fw-bold">Jadwal Toko</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none text-dark fw-bold">Cara Order</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- The Best Bakery in Town -->
+    <div class="px-4 mb-4">
+      <img src="images/Nuktav Banner.png" class="w-100" alt="The Best Bakery in Town">
+    </div>
+
+    <!-- Catalog -->
+    <h3 class="text-center">Pilihan Menu</h3>
+    <div class="bg-brick-red text-center text-light p-3 w-75 mx-auto mb-4 rounded-3 shadow">
+      Selamat datang di Nuktavia Pastry, tempat di mana kelezatan bertemu dengan keindahan di setiap gigitan! Terletak di jantung kota, Nuktavia Pastry adalah destinasi utama bagi para pecinta pastry yang menginginkan rasa autentik dengan sentuhan modern. Di Nuktavia Pastry, kami berkomitmen untuk menghadirkan pengalaman kuliner terbaik dengan enam jenis pastry andalan yang akan memanjakan lidah Anda.
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-4">
+      <!-- Croissant Klasik -->
+      <div class="col">
+        <div class="card shadow">
+          <img src="images/croissants.jpg" class="card-img-top" alt="Croissant Klasik">
+          <div class="card-body">
+            <p class="card-text">Croissant Klasik yang lembut dengan lapisan-lapisan yang meleleh di mulut.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Croissant Klasik kami adalah sajian yang menggoda dengan lapisan-lapisan lembut yang meleleh di mulut. Dibuat dengan bahan-bahan terbaik dan proses pembuatan yang cermat, croissant ini menawarkan pengalaman rasa yang autentik dan tak terlupakan. Setiap gigitan membawa Anda pada aroma mentega yang menggoda, dengan tekstur renyah di luar dan lembut di dalam. Cocok untuk sarapan cepat, camilan sore, atau dipadukan dengan secangkir kopi atau teh. Nikmati Croissant Klasik kami yang dipanggang dengan cinta dan perhatian terhadap detail.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 18.000,00</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Danish Coklat -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <img src="images/danish coklat.jpg" class="card-img-top" alt="Danish Coklat">
+          <div class="card-body">
+            <p class="card-text">Danish Coklat yang manis dan menggoda dari cokelat leleh.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Danish Coklat di Nuktav Pastry adalah sajian yang menggoda dengan kombinasi sempurna antara pastry renyah dan coklat leleh yang manis. Dibuat dengan bahan-bahan berkualitas tinggi, Danish ini memiliki lapisan pastry yang renyah dan tipis, memberikan sensasi garing di setiap gigitan. Di dalamnya terdapat coklat yang kaya dan melimpah, meleleh dengan sempurna dan memberikan rasa manis yang tak terlalu dominan namun sangat memuaskan. Setiap potongan Danish ini menawarkan pengalaman rasa yang menggugah selera, sempurna untuk dinikmati sebagai camilan di siang hari atau sebagai pelengkap hidangan penutup yang istimewa.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 22.000,00</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Baklava -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <img src="images/baklava.jpg" class="card-img-top" alt="Baklava">
+          <div class="card-body">
+            <p class="card-text">Phyllo Baklava dengan lapisan tipis dan renyah, memberikan sensasi krispi di setiap gigitan. Ideal untuk hidangan khas seperti baklava kacang.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Baklava di Nuktav Pastry adalah mahakarya kuliner yang membawa Anda ke dalam pengalaman rasa yang khas dan autentik. Dibuat dengan lapisan-lapisan pastry phyllo yang tipis dan renyah, baklava ini diisi dengan campuran kacang yang kaya dan manis, disiram dengan sirup yang harum. Setiap gigitan baklava memberikan perpaduan sempurna antara tekstur garing dari phyllo dan kelembutan dari isian kacang yang manis, menciptakan sensasi rasa yang luar biasa. Baklava ini adalah pilihan yang sempurna untuk dinikmati sebagai hidangan penutup yang mewah atau sebagai camilan yang memanjakan lidah di setiap saat.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 30.000,00</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Choux Pastry -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <img src="images/choux.jpg" class="card-img-top" alt="Choux Pastry">
+          <div class="card-body">
+            <p class="card-text">Choux Pastry yang lembut dan berongga, sempurna untuk éclairs yang diisi dengan krim segar.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Choux Pastry di Nuktav Pastry adalah sajian klasik yang lembut dan berongga, menciptakan tekstur yang ringan dan sempurna untuk berbagai isian. Dibuat dengan teknik yang presisi dan bahan-bahan berkualitas, choux pastry ini memberikan dasar yang sempurna untuk éclairs yang diisi dengan krim segar. Tekstur lembut dan elastis dari choux ini membuatnya mudah diisi dan dikreasikan menjadi berbagai hidangan penutup yang menarik. Setiap gigitan dari choux pastry ini membawa Anda ke dalam pengalaman rasa yang lembut dan memanjakan, cocok untuk dinikmati sebagai hidangan penutup yang elegan atau camilan manis di waktu luang.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 15.000,00</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Pie Lemon -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <img src="images/pie lemon.jpg" class="card-img-top" alt="Pie Lemon">
+          <div class="card-body">
+            <p class="card-text">Pie Lemon dengan rasa asam segar dan crust short pastry yang renyah.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Pie Lemon di Nuktav Pastry adalah perpaduan sempurna antara rasa asam yang segar dan manis yang lembut, menghadirkan sensasi rasa yang menyegarkan di setiap gigitan. Dibuat dengan crust short pastry yang renyah dan diisi dengan lemon curd yang kaya dan beraroma, pie ini menawarkan kombinasi tekstur yang luar biasa. Rasa asam dari lemon memberikan kesegaran yang unik, sementara lapisan crust yang renyah menambahkan elemen kelezatan yang memuaskan. Pie Lemon ini adalah pilihan yang sempurna untuk dinikmati sebagai hidangan penutup yang ringan dan menyegarkan, cocok untuk melengkapi berbagai acara spesial atau sebagai camilan yang menyenangkan.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 25.000,00</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Cromboloni -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <img src="images/cromboloni.jpg" class="card-img-top" alt="Cromboloni">
+          <div class="card-body">
+            <p class="card-text">Cromboloni yang renyah dengan isian yang kaya rasa, menyuguhkan kelezatan di setiap gigitan.</p>
+          </div>
+          <div class="d-none deskripsi"><p>Cromboloni di Nuktav Pastry adalah sajian yang menghadirkan kombinasi rasa yang kaya dan tekstur yang memikat di setiap gigitan. Dibuat dengan pastry yang renyah dan isian yang melimpah, cromboloni ini menawarkan pengalaman rasa yang luar biasa. Isian yang beragam dan penuh cita rasa, mulai dari krim vanila yang lembut hingga cokelat yang kaya, memberikan variasi yang menarik dan memuaskan. Setiap potongan cromboloni memberikan perpaduan sempurna antara tekstur renyah dari pastry dan kelembutan dari isian, menciptakan sensasi rasa yang memanjakan lidah. Cromboloni ini adalah pilihan yang ideal untuk dinikmati sebagai camilan yang istimewa atau sebagai hidangan penutup yang memikat.</p>
+          </div>
+          <div class="card-footer d-flex">
+            <a href="#" class="btn btn-sm btn-primary btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold harga">Rp 18.000,00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tentang Kami -->
+    <div id="about" class="px-4 py-4 bg-brick-red text-center text-light">
+      <div class="mx-auto w-50">
+        <h3>Tentang Kami</h3>
+        <p class="text-light"><img src="images/about-us.png" align="left" style="width: 100px; height: auto" class="me-3 mb-3"/> Nuktavia Pastry adalah tempat di mana setiap gigitan pastry memberikan pengalaman rasa yang tak terlupakan. Kami berkomitmen untuk menggunakan bahan-bahan terbaik dan resep yang telah teruji untuk menyajikan produk berkualitas tinggi kepada pelanggan kami.</p>
+      </div>
+    </div>
+
+    <!-- Jadwal Toko -->
+    <div class="p-4 store-hours ">
+      <h3 id="jadwal" class="mb-4 px-4 py-4 bg-brick-red text-center text-light">Jadwal Toko</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Hari</th>
+            <th>Jam Buka</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Senin - Jumat</td>
+            <td>08:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Sabtu</td>
+            <td>08:00 - 15:00</td>
+          </tr>
+          <tr>
+            <td>Minggu</td>
+            <td>Tutup</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Cara Order -->
+    <div id="order" class="px-4 py-4 bg-brick-red text-center text-light">
+      <div class="mx-auto w-75">
+        <h3>Cara Order</h3>
+        <p class="text-light"><img src="images/order.png" align="right" style="width: 100px; height: auto" class="me-3 mb-3"/> Anda dapat mengunjungi toko kami di pusat kota atau memesan melalui WhatsApp di nomor 081214038484 atau melalui Instagram kami di @nuktavpastry. Silakan hubungi kami untuk informasi lebih lanjut dan memesan pastry favorit Anda!</p>      </div>
+      </div>
+    </div>
+
+  <!--modal-->
+  <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body row">
+          <div class="modalImage col-md-6 col-12"></div>
+          <div class="col-md-6 col-12">
+            <div class="modalDeskripsi"></div>
+            <div class="d-md-flex">
+              <a href="" target="blank" class="btn btn-sm btn-primary btnBeli">Beli Produk Ini</a>
+              <span class="ms-auto text-danger fw-bold modalHarga"></span>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#" class="btn btn-info btnInstagram" target="blank">Kunjungi Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>
